@@ -1,0 +1,65 @@
+html {
+  font-size: 14px;  
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.navbar{
+  background-color: #8B0000 !important;
+}
+.border-top{
+  background-color: #ffffff !important;
+}
+
+.tamanho{
+  height: 500px;
+  margin-top: 50px;
+}
+.carroussel{
+  margin-top: 500%;
+}
+.card{
+  border-color: rgb(0, 0, 0);
+}
+.img{
+  height: 120px;
+}
+main{
+  background-color: #ffffff !important;
+}
+.foto{
+   background-image: url("../imagem/Component.png");
+}
+.only-print {
+  display: none;
+  }
+  @media print {
+  .only-print {
+  display: block;
+  }
+  .no-print {
+  display: none !important;
+  }
+  .container{
+  max-width: 100%;
+  }
+  }
+  .fotos{
+    height: 600px;
+  }

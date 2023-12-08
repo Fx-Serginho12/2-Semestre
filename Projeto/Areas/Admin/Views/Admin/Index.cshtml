@@ -1,0 +1,98 @@
+@{
+    ViewData["Title"] = "Admin";
+}
+<div class="text-center">
+<h1 class="display-4">Seja bem vindo!</h1>
+</div>
+
+<main class="carousel ">
+    <!-- Sessão de carousel -->
+    <section id="meucarrosel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+        <!--Indicadores de banner -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#meucarrosel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#meucarrosel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#meucarrosel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#meucarrosel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#meucarrosel" data-bs-slide-to="4"></button>
+        </div>
+        <!-- Lista de imagens - Banners-->
+        <div class="carousel-inner">
+            <!--Imagem 1-->
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="~/imagem/Group 6.png" class="w-100 d-block">
+            </div>
+
+            <!--Imagem 2-->
+            <div class="carousel-item">
+                <img src="~/imagem/Group 12.png" class="w-100 d-block">
+            </div>
+            <!--Imagem 3-->
+            <div class="carousel-item">
+                <img src="~/imagem/Group 11.png" class="w-100 d-block">
+            </div>
+            <!--Imagem 4-->
+            <div class="carousel-item">
+                <img src="~/imagem/Group 13.png" class="w-100 d-block">
+            </div>
+            <!--Imagem 5-->
+            <div class="carousel-item">
+                <img src="~/imagem/Group 10.png" class="w-100 d-block">
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#meucarrosel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#meucarrosel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </section>
+</main>
+<nav class="navbar bg-info navbar-dark navbar-expand-sm ">
+        <div class="container">
+            <form class="d-flex" role="search">
+                <div class="input-group">
+                    <input class="form-control me-2" type="search">
+                    <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                </div>
+            </form>
+        </div>
+        <select name="" id="">
+            <option value="">Ordenar pelo nomes</option>
+            <option value="">Lanche</option>
+            <option value="">Sorvete</option>
+            <option value="">Refrigerante</option>
+            <option value="">Milk Shake</option>
+            <option value="">Sundae</option>
+            <option value="">Cookie</option>
+            <option value="">Brownie</option>
+            <option value="">Mega Flurry</option>
+            <option value="">Torta</option>
+            <option value="">Danone</option>
+            <option value="">Suco</option>
+            <option value="">Água</option>
+            <option value="">Batata Frita</option>
+            <option value="">Nuggets</option>
+            <option value="">Combo Kids</option>
+        </select>
+</nav>
+ <div>
+        <nav>
+            <ul class="pagination justify-content-center">
+                <li class="page-item active">
+                    <a href="#" class="page-link">1</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">2</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">3</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <img src="~/imagem/Component 335.png" class="w-100 d-block">
